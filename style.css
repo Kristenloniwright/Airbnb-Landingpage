@@ -1,0 +1,46 @@
+@charset "UTF-8";
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.hero{
+	background-image: url( "img/home1.jpg");
+   background-size:cover;
+   background-position: center;
+   height:100vh;
+	display:flex;
+   flex-direction: column;
+   justify-content:center;
+   align-items:center;
+   padding:0 20px;
+   text-align:center;
+}
+.h-text{
+	color:aliceblue;
+	font-family: "system-ui","Helvetica Neue", sans-serif;
+	letter-spacing:1.28px;
+	word-spacing:0px;
+	text-transform:none;
+	text-decoration:none solid rgb(255, 255, 255);
+
+}
+button{
+
+	background-color:aliceblue!important;
+	color: purple !important;
+	border:none !important;
+	border-radius:20px !important;
+	padding: 10px 35px !important;
+
+
+}
+.card-body{
+	background-color: #CC2D4A;
+	color:aliceblue;
+	font-size: 22px;
+}
+.btn:hover{
+	color:aliceblue!important;
+	background-color: purple !important;
+}
